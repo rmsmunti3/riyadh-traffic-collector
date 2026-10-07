@@ -1,0 +1,39 @@
+name: Riyadh Traffic Auto Collector
+
+on:
+  schedule:
+    # Runs every 15 minutes automatically
+    - cron: '*/15 * * * *'
+  # Enables a manual run button for testing anytime
+  workflow_dispatch:
+
+jobs:
+  collect_and_save:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install pandas requests pytz
+
+      - name: Run Collector Script
+        env:
+          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
+        run: |
+          python collector.py
+
+      - name: Commit and Push CSV Updates
+        run: |
+          git config --global user.name "TrafficBot"
+          git config --global user.email "bot@traffix.local"
+          git add riyadh_traffic_stream.csv
+          git commit -m "Auto update traffic data" || echo "No changes to commit"
+          git push
