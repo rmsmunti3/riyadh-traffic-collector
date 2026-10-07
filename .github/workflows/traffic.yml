@@ -2,10 +2,12 @@ name: Riyadh Traffic Auto Collector
 
 on:
   schedule:
-    # Runs every 15 minutes automatically
+    # Runs every 15 minutes
     - cron: '*/15 * * * *'
-  # Enables a manual run button for testing anytime
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   collect_and_save:
@@ -35,5 +37,5 @@ jobs:
           git config --global user.name "TrafficBot"
           git config --global user.email "bot@traffix.local"
           git add riyadh_traffic_stream.csv
-          git commit -m "Auto update traffic data" || echo "No changes to commit"
+          git commit -m "Auto update traffic data [skip ci]" || echo "No changes to commit"
           git push
