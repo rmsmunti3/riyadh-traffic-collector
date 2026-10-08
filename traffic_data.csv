@@ -1,0 +1,14 @@
+timestamp,location_name,latitude,longitude,current_speed_kmh,free_flow_speed_kmh,current_travel_time_sec,free_flow_travel_time_sec,delay_seconds,congestion_pct
+2026-10-08 13:57:27,King Fahd Rd (Olaya / Downtown),24.7136,46.6753,64,72,784,697,87,11.11
+2026-10-08 13:57:27,Northern Ring Rd (Al Nakheel / KAFD),24.7743,46.6385,47,90,560,292,268,47.78
+2026-10-08 13:57:27,Eastern Ring Rd (Exit 10 / Al Quds),24.7562,46.7487,11,107,228,23,205,89.72
+2026-10-08 13:57:27,Southern Ring Rd (Shubra / Namar),24.5821,46.6892,67,67,40,40,0,0.0
+2026-10-08 13:57:27,Western Ring Rd (Dhahrat Laban),24.6437,46.5921,110,110,250,250,0,0.0
+2026-10-08 13:57:27,Makkah Al Mukarramah Rd (Al Mutamarat),24.6712,46.6914,63,63,148,148,0,0.0
+2026-10-08 13:57:27,Khurais Rd (Al Malaz / Al Rawdah),24.7088,46.7326,35,54,686,444,242,35.19
+2026-10-08 13:57:27,King Abdullah Rd (Al Wurud / Salah Ad Din),24.7431,46.6834,44,63,1512,1056,456,30.16
+2026-10-08 13:57:27,King Abdulaziz Rd (Al Yasmin / Sahafa),24.8115,46.6453,43,55,845,661,184,21.82
+2026-10-08 13:57:27,Prince Turki Ibn Abdulaziz Al Awwal (Hittin),24.7618,46.6112,28,37,1488,1126,362,24.32
+2026-10-08 13:57:27,King Khalid Rd (Hittin / Umm Al Hamam),24.7391,46.5881,86,86,14,14,0,0.0
+2026-10-08 13:57:27,Al Takhassusi (Al Mohammadiyyah),24.7295,46.6573,52,84,304,188,116,38.1
+2026-10-08 13:57:27,Olaya St (Al Olaya District),24.6975,46.6852,27,39,648,448,200,30.77
