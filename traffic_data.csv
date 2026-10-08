@@ -1104,3 +1104,16 @@ timestamp,location_name,latitude,longitude,current_speed_kmh,free_flow_speed_kmh
 2026-10-08 15:51:07,King Khalid Rd (Hittin / Umm Al Hamam),24.7391,46.5881,86,86,14,14,0,0.0
 2026-10-08 15:51:07,Al Takhassusi (Al Mohammadiyyah),24.7295,46.6573,45,85,351,186,165,47.06
 2026-10-08 15:51:07,Olaya St (Al Olaya District),24.6975,46.6852,27,38,648,460,188,28.95
+2026-10-08 16:10:01,King Fahd Rd (Olaya / Downtown),24.7136,46.6753,65,72,772,697,75,9.72
+2026-10-08 16:10:01,Northern Ring Rd (Al Nakheel / KAFD),24.7743,46.6385,47,90,560,292,268,47.78
+2026-10-08 16:10:01,Eastern Ring Rd (Exit 10 / Al Quds),24.7562,46.7487,13,110,193,22,171,88.18
+2026-10-08 16:10:01,Southern Ring Rd (Shubra / Namar),24.5821,46.6892,67,67,40,40,0,0.0
+2026-10-08 16:10:01,Western Ring Rd (Dhahrat Laban),24.6437,46.5921,110,110,250,250,0,0.0
+2026-10-08 16:10:01,Makkah Al Mukarramah Rd (Al Mutamarat),24.6712,46.6914,32,64,291,145,146,50.0
+2026-10-08 16:10:01,Khurais Rd (Al Malaz / Al Rawdah),24.7088,46.7326,37,55,649,436,213,32.73
+2026-10-08 16:10:01,King Abdullah Rd (Al Wurud / Salah Ad Din),24.7431,46.6834,48,63,1386,1056,330,23.81
+2026-10-08 16:10:01,King Abdulaziz Rd (Al Yasmin / Sahafa),24.8115,46.6453,43,55,845,661,184,21.82
+2026-10-08 16:10:01,Prince Turki Ibn Abdulaziz Al Awwal (Hittin),24.7618,46.6112,24,36,1736,1157,579,33.33
+2026-10-08 16:10:01,King Khalid Rd (Hittin / Umm Al Hamam),24.7391,46.5881,68,85,18,14,4,20.0
+2026-10-08 16:10:01,Al Takhassusi (Al Mohammadiyyah),24.7295,46.6573,35,84,451,188,263,58.33
+2026-10-08 16:10:01,Olaya St (Al Olaya District),24.6975,46.6852,29,37,603,473,130,21.62
